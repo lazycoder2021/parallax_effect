@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI';
+        }
+
+        body, html {
+            height: 100%;
+            background: black;
+            color: white;
+        }
+
+        .parallax {
+            /* The image used */
+            background-image: url('2.jpg');
+            /* Full height */
+            height: 800px;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            //object-fit:contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="col-md-12">
+        <div class="parallax"></div>
+
+        <div style="height:1000px;background-color:black;font-size:36px;text-align:center;font-weight:100;">
+            <p style="text-align:center;">
+                Scroll Up and Down this page to see the parallax scrolling effect.
+                This div is just here to enable scrolling.
+                Tip: Try to remove the background-attachment property to remove the scrolling effect.
+            </p>
+
+            <p>
+                Scroll Up and Down this page to see the parallax scrolling effect.
+                This div is just here to enable scrolling.
+                Tip: Try to remove the background-attachment property to remove the scrolling effect.
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
